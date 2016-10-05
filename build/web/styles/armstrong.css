@@ -8,8 +8,8 @@ Copyright(c) 2016 Scott Armstrong & Nicholas Richu
 
 body {
     font-family: sans-serif;
-    width: 80%;
     margin: 4em auto;
+    width: 80%;
 }
 
 .bullet {
@@ -25,8 +25,8 @@ h1, header li {
 }
 
 h2 {
-    text-decoration: underline;
     font-size: 1.1em;
+    text-decoration: underline;
 }
 
 h3 {
