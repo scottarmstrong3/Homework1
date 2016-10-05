@@ -14,11 +14,82 @@ and open the template in the editor.
     box-sizing: border-box;
 }
 
-@media only screen and (max-width: 600px) {
-    p {
-        color: yellow;
-    }
-} /*doesn't work'*/
+body {
+    width: 80%;
+    margin: 4em auto;
+}
+
+.bullet {
+    font-size: 1.4em;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 1.3em;
+}
+
+h1, header li {
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    text-decoration: underline;
+    margin: 0;
+    font-size: 1.3em;
+}
+
+h3 {
+    margin: 0;
+}
+
+h4 {
+    font-style: italic;
+    margin: 0.1em 0;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0 auto;
+    -webkit-padding-start: 0;
+    width: 100%;
+}
+
+ul {
+    margin-top: 0;
+}
+
+.location {
+    font-weight: normal;
+}
+
+p {
+    margin: 0.1em; 
+}
+
+p.bullet-before:before {
+    content: "• ";
+    font-size: 1.4em;
+}
+
+p.bullet-before {
+    margin-left: 0.9em;
+}
+
+.red {
+    color: red;
+}
+
+@media screen and (min-width: 501px) {
+    
+} 
+
+@media screen and (max-width: 500px) {
+    
+}
 
 .row {
     width: 100%;
