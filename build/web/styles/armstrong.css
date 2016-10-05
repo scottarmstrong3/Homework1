@@ -7,24 +7,15 @@ and open the template in the editor.
     Created on : Sep 11, 2016, 2:43:48 PM
     Author     : scottarmstrong
 */
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-}
 
 body {
+    font-family: liberation-sans;
     width: 80%;
     margin: 4em auto;
 }
 
 .bullet {
     font-size: 1.4em;
-}
-
-html {
-    font-family: sans-serif;
 }
 
 h1 {
@@ -39,10 +30,11 @@ h1, header li {
 h2 {
     text-decoration: underline;
     margin: 0;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 h3 {
+    font-size: 1em;
     margin: 0;
 }
 
@@ -51,22 +43,15 @@ h4 {
     margin: 0.1em 0;
 }
 
-header ul {
-    list-style-type: none;
-    margin: 0 auto;
-    -webkit-padding-start: 0;
-    width: 100%;
-}
-
 ul {
-    margin-top: 0;
+    margin: 0;
 }
 
-.location {
+.unbold {
     font-weight: normal;
 }
 
-p {
+p, li {
     margin: 0.1em; 
 }
 
@@ -83,65 +68,35 @@ p.bullet-before {
     color: red;
 }
 
+.space-above {
+    margin-top: 1em;
+}
+
 @media screen and (min-width: 501px) {
     
+    header p {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .big-date {
+        float: right;
+    }
+    
+    .small-date, .small-header {
+        display: none;
+    }
 } 
 
 @media screen and (max-width: 500px) {
+    header ul {
+      list-style-type: none;
+      margin: 0 auto;
+      -webkit-padding-start: 0;
+      width: 100%;
+    }
     
+    .big-only, .big-date, .big-header {
+        display: none;
+    }
 }
-
-.row {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.col-1{
-    width: 8.33%;
-}
-
-.col-2 {
-    width: 16.66%;
-}
-
-.col-3 {
-    width: 25%;
-}
-
-.col-4 {
-    width: 33.33%;
-}
-
-.col-5 {
-    width: 41.66%;
-}
-
-.col-6 {
-    width: 50%;
-}
-
-.col-7 {
-    width: 58.33%;
-}
-
-.col-8 {
-    width: 66.66%;
-}
-
-.col-9 {
-    width: 75%;
-}
-
-.col-10 {
-    width: 83.33%;
-}
-
-.col-11 {
-    width: 91.66%;
-}
-
-.col-12 {
-    width: 100%;
-}
-
