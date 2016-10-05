@@ -1,0 +1,46 @@
+@media (min-width:500px){
+    html{
+        font-family: sans-serif;
+    }
+    h1
+    {
+        font-size: 1.5em;
+        margin-left: 4.5em;
+    }
+    h2
+    {
+        font-size:1.1em;
+        text-decoration:underline;
+    }
+    h3{
+        font-size:.98em;
+    }
+    
+    header ul{
+        list-style-type: none;
+        margin: 0 auto;
+        -webkit-padding-start: 0;
+        width:100%;
+        
+    }
+    header li, h1{
+        text-align: center;
+        margin: 0;
+    }
+    
+    
+    p,
+    ul,
+    h1,
+    h2,
+    h3
+    {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    section{
+        margin-top: 1em;
+    }
+    
+}
+©nickrichu
